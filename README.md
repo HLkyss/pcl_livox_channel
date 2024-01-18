@@ -6,13 +6,11 @@ livox-360雷达获取管道点云，在线简易拟合管道，ros节点<br />
 彩色为雷达获得的所有点云，白色为过滤后用于拟合的点云：<br />
 <img src="https://github.com/HLkyss/pcl_livox_channel/assets/69629475/e0159fc6-35e0-473e-a806-795fb6d1ccb2" width="500"> <br />
 动态效果：<br />
-
-
-<video width="320" height="240" controls>
-    <source src="[movie.mp4](https://github.com/HLkyss/pcl_livox_channel/assets/69629475/a7d64f7e-2a93-4f93-960f-85e1d53e3236)https://github.com/HLkyss/pcl_livox_channel/assets/69629475/a7d64f7e-2a93-4f93-960f-85e1d53e3236" type="video/mp4">
-</video>
+<img src="https://github.com/HLkyss/pcl_livox_channel/assets/69629475/6105affe-3116-4b3d-b6bf-1143afa8bce7" width="500"> <br />
 
 
 
 
+
+![vokoscreen-2024-01-18_21-47-29_3840_2160](https://github.com/HLkyss/pcl_livox_channel/assets/69629475/6105affe-3116-4b3d-b6bf-1143afa8bce7)
 
