@@ -10,7 +10,7 @@ livox-360雷达获取管道点云，在线简易拟合管道，ros节点<br />
 
 ***
 工程描述：熟悉了ros和pcl的东西，用雷达获取管道点云数据，然后用pcl拟合，最后在rviz里可视化。</br>
-参考：（更多细节参考，见代码）
+参考：（更多细节参考，见代码）</br>
 [https://blog.csdn.net/qq_42367689/article/details/104358046](https://blog.csdn.net/qq_42367689/article/details/104358046) </br>
 [http://wiki.ros.org/pcl/Tutorials/hydro](http://wiki.ros.org/pcl/Tutorials/hydro) </br>
 
