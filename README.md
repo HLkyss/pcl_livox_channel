@@ -14,18 +14,18 @@ livox-360雷达获取管道点云，在线简易拟合管道，ros节点<br />
 [https://blog.csdn.net/qq_42367689/article/details/104358046](https://blog.csdn.net/qq_42367689/article/details/104358046) </br>
 [http://wiki.ros.org/pcl/Tutorials/hydro](http://wiki.ros.org/pcl/Tutorials/hydro) </br>
 
-1. 先运行运行ws_Livox下的livox_ros_driver2：
-$ source /home/hl/project/Livox_ros_driver2_ws/devel/setup.sh
-$ roslaunch livox_ros_driver2 rviz_MID360.launch
-（更改网络设置：sudo ifconfig enp49s0 192.168.1.50，在/home/hl/Downloads/ws_Livox/src/livox_ros_driver2/config/MID360comnfig.json中有设置）
-（	此时运行
-	$ rostopic list #查看话题列表，找到雷达点云信息为/livox/lidar
-	再运行
-	$ rostopic info /livox/lidar #查看话题数据类型，为sensor_msgs/PointCloud2，据此修改PclProj代码）
+1. 先运行运行ws_Livox下的livox_ros_driver2： </br>
+$ source /home/hl/project/Livox_ros_driver2_ws/devel/setup.sh </br>
+$ roslaunch livox_ros_driver2 rviz_MID360.launch </br>
+（更改网络设置：sudo ifconfig enp49s0 192.168.1.50，在/home/hl/Downloads/ws_Livox/src/livox_ros_driver2/config/MID360comnfig.json中有设置） </br>
+（	此时运行 </br>
+	$ rostopic list #查看话题列表，找到雷达点云信息为/livox/lidar </br>
+	再运行 </br>
+	$ rostopic info /livox/lidar #查看话题数据类型，为sensor_msgs/PointCloud2，据此修改PclProj代码） </br>
 
-2. 运行PclProj:
-$ source /home/hl/project/PCL_livox_channel/pcl_ws/devel/setup.sh
-$ rosrun PclProj PclProj
+2. 运行PclProj: </br>
+$ source /home/hl/project/PCL_livox_channel/pcl_ws/devel/setup.sh </br>
+$ rosrun PclProj PclProj </br>
 
-3. 在rviz中
-在先前rviz_MID360.launch打开的rviz中，添加PointCloud2，话题为output
+3. 在rviz中 </br>
+在先前rviz_MID360.launch打开的rviz中，添加PointCloud2，话题为output </br>
